@@ -20,12 +20,18 @@
         android:layout_weight="0.5"
         android:orientation="vertical">
 
-    <TextViewa
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:gravity="center"
-        android:text="@string/tv_winfo_title"
-        android:textSize="25sp"/>
+        <TextViewa
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/tv_winfo_title"
+            android:textSize="25sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_heigth="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation=="horizontal">
 
 </android.support.constraint.ConstraintLayout>
